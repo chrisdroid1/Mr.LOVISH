@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hellow My name is * LOVISH * [💌](https://telegra.ph/file/17ae08bb56301257986b4.jpg),
+Hellow My name is * LOVISH * [💌](https://telegra.ph/file/a12832b021102775bab1f.jpg),
 
  I'm here to help you manage your groups! I can help you to manage your groups very easily with my special features 🤗
 
