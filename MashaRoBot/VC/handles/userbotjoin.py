@@ -80,7 +80,7 @@ async def addchannel(client, message):
 
     
 
-@USER.on_message(filters.group & filters.command(["userbotleave"]))
+@USER.on_message(filters.group & filters.command(["leave"]))
 
 async def rem(USER, message):
 
