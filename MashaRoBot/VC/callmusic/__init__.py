@@ -1,3 +1,4 @@
 from MashaRoBot.VC.callsmusic import pytgcalls, run
 
-from . import queues
+from MashaRoBot.VC.callmusic.queues import queues
+
