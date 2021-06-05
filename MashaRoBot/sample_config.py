@@ -69,6 +69,8 @@ class Config(object):
     SPAMMERS = None 
     SESSION_NAME = getenv("SESSION_NAME", "session") 
     COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
+    BOT_NAME = getenv("BOT_NAME", "")
+    
 
 class Production(Config):
     LOGGER = True
