@@ -8,7 +8,7 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 
-from MashaRoBot.config import get_str_key
+from MashaRoBot.conf import get_str_key
 
 StartTime = time.time()
 
