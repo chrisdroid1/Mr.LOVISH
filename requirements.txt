@@ -61,6 +61,10 @@ better_profanity
 textblob 
 nudepy
 envparse
- 
+py-tgcalls
+python-dotenv
+
+
+
 
 
