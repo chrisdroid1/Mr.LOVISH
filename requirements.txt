@@ -63,7 +63,8 @@ nudepy
 envparse
 py-tgcalls
 python-dotenv
-
+ffmpeg
+python-arq
 
 
 
