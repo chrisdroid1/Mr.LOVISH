@@ -6,7 +6,7 @@ from pyrogram.types import Message
 
 from MashaRoBot.VC.helpers.admins import get_administrators
 
-from sample_config import SUDO_USERS
+from sample_config import DRAGONS
 
 def errors(func: Callable) -> Callable:
 
@@ -26,7 +26,7 @@ def authorized_users_only(func: Callable) -> Callable:
 
     async def decorator(client: Client, message: Message):
 
-        if message.from_user.id in SUDO_USERS:
+        if message.from_user.id in DRAGONS:
 
             return await func(client, message)
 
