@@ -3,9 +3,11 @@ import random
 import os 
 
 import asyncio
-
+from telethon.tl import functions, types
 from telethon import events
+from MashaRoBot.events import register
 
+from MashaRoBot import telethn as tbot
 from MashaRoBot import pbot
 
 REPLY_STRING = (
@@ -66,10 +68,10 @@ REPLY_STRING = (
 
 )
 
-@pbot(cmd="/abuse (/*)")
+@tbot.on(events.NewMessage(pattern="/abuse (.*)"))
 
 async def abuse(event): 
 
-        await pbot.reply_text(random.choice(REPLY_STRING))
+        await tbot.reply_text(random.choice(REPLY_STRING))
 
         await get_start_func(message)
