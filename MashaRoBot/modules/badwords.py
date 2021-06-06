@@ -66,7 +66,7 @@ SFW_STRINGS = (
 
     "pani kaam hai matke me maar lunga teri eak jatke me😆",
 
-    "gaye ke piche pada hai sand tere jaise mere niche latak rehe hai 2 aand😆😆"
+    "gaye ke piche pada hai sand tere jaise mere niche latak rehe hai 2 aand😆😆",
 
   )
 
