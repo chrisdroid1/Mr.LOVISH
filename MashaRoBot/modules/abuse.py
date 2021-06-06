@@ -66,7 +66,7 @@ REPLY_STRING = (
 
 )
 
-@pbot.on(events.NewMessage(pattern="/abuse (/*)"))
+@pbot(cmd="/abuse (/*)")
 
 async def abuse(event): 
 
