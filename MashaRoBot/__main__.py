@@ -384,8 +384,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LOVISH*
-                 \nI Can play Music In **VOICE CHAT**
-                  FIRST OF ALL ADD **@LovishMusic_bot** into your group.& MAKE BOTH OF THEM ADMIN WITH FULL RIGHTS 
+                 \nI Can play Music In *VOICE CHAT*
+                  FIRST OF ALL ADD *@LovishMusic_bot* into your group.& MAKE BOTH OF THEM ADMIN WITH FULL RIGHTS 
                   **COMMANDS**
                   → TO START  
                   /join - add assistant in VC 
@@ -405,7 +405,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                   /join - invite assistant to your chat 
                   /admincache - Refresh admin list 
                   /ubleave - remove assistant from your chat
-                  HERE REPORT ERRORS [CHAT To REPORT](https://t.me/PsychoBots_chat) .""",
+                  HERE REPORT ERRORS At @PsychoBots_Chat.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
