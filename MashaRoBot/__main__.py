@@ -405,9 +405,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
                   /join - invite assistant to your chat 
                   /admincache - Refresh admin list 
                   /ubleave - remove assistant from your chat
-                  HERE REPORT ERRORS [CHAT To REPORT](https://t.me/PsychoBots_chat) .""",
+                  HERE REPORT ERRORS [ @PsychoBots_Chat] .""",
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=False,
+   
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
