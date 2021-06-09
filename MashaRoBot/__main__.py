@@ -389,7 +389,47 @@ def Source_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LOVISH*
                  \nɪ ᴄᴀɴ ᴘʟᴀʏ Sᴏɴɢs ᴏɴ **VOICE CHAT**
-                 """,
+                 FIRST OF ALL ADD **@LovishMusic_bot** into your group.& MAKE BOTH OF THEM ADMIN WITH FULL RIGHTS (IMPORTANT TO PLAY MUSIC)
+
+  **COMMANDS**
+
+  → TO START  
+
+  /join - To add assistant in VC
+
+  /end - To stop VC 
+
+ → For all CHAT 
+
+  /play <song name>or<link> - To play song 
+
+  /splay <song name>or<link> - TO play song via savan 
+
+  /dplay - play song via Deezer
+
+  /playlist - get the current queues 
+
+  /current - Get which song is playing currently
+
+  **ADMINS ONLY**
+
+  /player - open music player settings panel
+
+  /pause - pause song play
+
+  /resume - resume song play
+
+  /skip - play next song
+
+  /end - stop music play
+
+  /join - invite assistant to your chat
+
+  /ubleave - remove assistant from your chat
+
+  /admincache - Refresh admin list
+
+ IF YOU ARE GETTING ANY PROBLEM LET US KNOW AT [PsychoBots_Chat](https://t.me/PsychoBots_chat).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
