@@ -90,14 +90,14 @@ buttons = [
             text="α∂∂ łσѵısн тσ yσυя gяσυρ ➕️", url="t.me/Lovishmanager_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="💠 ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="💠𝙰𝚋𝚘𝚞𝚝 𝙼𝚎", callback_data="masha_"),
         InlineKeyboardButton(text="Help🔱", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="REPORT ISSUE 🚧", callback_data="source_"),
+            text="𝚅𝚘𝚒𝚌𝚎 𝙲𝙷𝙰𝚃", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Psycho_Bots"
+            text="👥𝗦𝗨𝗣𝗣𝗢𝗥𝗧🔰", url="https://t.me/Psycho_Bots"
         ),
     ],
 ]
@@ -388,7 +388,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LOVISH*
-                 \nHere is the [CHAT TO REPORT](https://t.me/PsychoBots_chat) .""",
+                 \nɪ ᴄᴀɴ ᴘʟᴀʏ Sᴏɴɢs ᴏɴ **VOICE CHAT**
+                 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
