@@ -384,8 +384,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LOVISH*
-                 \nI Can play Music In *VOICE CHAT*
-                  FIRST OF ALL ADD *@LovishMusic_bot* into your group.& MAKE BOTH OF THEM ADMIN WITH FULL RIGHTS 
+                 \nI Can play Music In VOICE CHAT
+                  FIRST OF ALL ADD @LovishMusic_bot into your group.& MAKE BOTH OF THEM ADMIN WITH FULL RIGHTS 
                   **COMMANDS**
                   → TO START  
                   /join - add assistant in VC 
