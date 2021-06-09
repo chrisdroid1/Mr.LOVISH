@@ -80,7 +80,7 @@ async def abuse(message):
 
   
 
-  await pbot.reply_text(random.choice(SFW_STRINGS)))
+  await pbot.reply_text(random.choice(SFW_STRINGS))
 
 ABUSE_HANDLER = DisableAbleCommandHandler("abuse", abuse)
 
