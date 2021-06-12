@@ -6,7 +6,7 @@ import os
 
 import time
 
-import lyricsgenius
+import lyricsges
 
 import requests
 
