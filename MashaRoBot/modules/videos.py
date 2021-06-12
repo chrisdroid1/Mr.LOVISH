@@ -16,7 +16,7 @@ from pyrogram import filters
 
 from pyrogram.types import Message
 
-from tswift import Song
+
 
 from youtube_dl import YoutubeDL
 
