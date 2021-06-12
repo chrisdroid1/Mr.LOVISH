@@ -14,7 +14,7 @@ from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 from MashaRoBot import pbot as client
 
-@Client.on_message(filters.command(["vsong", "video"]))
+@pbot.on_message(filters.command(["vsong", "video"]))
 async def ytmusic(client, message: Message):
     global is_downloading
     if is_downloading:
