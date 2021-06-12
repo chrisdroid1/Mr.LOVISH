@@ -12,7 +12,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
-from MashaRoBot import pbot as client
+from MashaRoBot import pbot
 
 @pbot.on_message(filters.command(["vsong", "video"]))
 async def ytmusic(client, message: Message):
