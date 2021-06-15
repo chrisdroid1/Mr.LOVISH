@@ -100,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-⚜️ * ƑЄƛƬƲƦЄƧ ƠƑ ԼƠƔƖƧӇ * [⚜️](https://telegra.ph/file/82a9e3ebbc3613a7bff20.jpg)"""
+⚜️ * ƑЄƛƬƲƦЄƧ ƠƑ ԼƠƔƖƧӇ * [⚜️](https://telegra.ph/file/cdc2a8bc4db63b9c259af.jpg)"""
 
 
 DONATE_STRING = """Thanks but i don't want i am free to use🤗\n\nTHANKS TO @Psycho_Bots"""
