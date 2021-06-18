@@ -11,7 +11,7 @@ Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a m
 
 -->  /rmchat*:* Disables Chatbot mode in the chat.
 
-Reports bugs at @{SUPPORT_CHAT}
+Reports bugs at @PsychoBots_chat
 
 
 
