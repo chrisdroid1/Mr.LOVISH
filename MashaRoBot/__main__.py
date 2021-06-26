@@ -363,7 +363,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="🧑‍🦼Ъαcк", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -411,7 +411,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="🧑‍🦼Ъαcк", callback_data="source_back")
                  ]
                 ]
             ),
