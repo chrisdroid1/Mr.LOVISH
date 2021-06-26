@@ -1,4 +1,4 @@
-__mod_name__ = "Video"
+__mod_name__ = "Video🎥"
 
 __help__ = """
 
