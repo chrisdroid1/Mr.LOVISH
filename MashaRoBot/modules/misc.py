@@ -94,8 +94,7 @@ __help__ = """
 *Wikipedia:*
  ❍ /wiki <query>*:* wikipedia your query
 *Wallpapers:*
- ❍ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-*Currency converter:* 
+
  ❍ /cash*:* currency converter
 Example:
  `/cash 1 USD INR`  
@@ -111,7 +110,7 @@ MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help)
 dispatcher.add_handler(ECHO_HANDLER)
 dispatcher.add_handler(MD_HELP_HANDLER)
 
-__mod_name__ = "EXTRAS"
+__mod_name__ = "EXTRAS🃏"
 __command_list__ = ["id", "echo"]
 __handlers__ = [
     ECHO_HANDLER,
