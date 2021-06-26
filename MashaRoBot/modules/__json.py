@@ -20,7 +20,7 @@ async def is_register_admin(chat, user):
         return True
 
 
-@register(pattern="^/json$")
+@register(pattern="^/msginfo$")
 async def _(event):
     if event.fwd_from:
         return
@@ -54,7 +54,7 @@ async def _(event):
 
 
 __help__ = """
- ❍ /json*:* Get Detailed info about any message
+ ❍ /msginfo*:* Get Detailed info about any message
 """
 
-__mod_name__ = "JSON"
+__mod_name__ = "Msg Infoℹ️"
