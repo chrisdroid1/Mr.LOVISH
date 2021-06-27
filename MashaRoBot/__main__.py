@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
     time_list = []
     time_suffix_list = ["s", "m", "h", "days"]
 
-    while count < 4:
+    while count < 3:
         count += 1
         remainder, result = divmod(seconds, 60) if count < 3 else divmod(seconds, 24)
         if seconds == 0 and remainder == 0:
@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
 
     for x in range(len(time_list)):
         time_list[x] = str(time_list[x]) + time_suffix_list[x]
-    if len(time_list) == 4:
+    if len(time_list) == 3:
         ping_time += time_list.pop() + ", "
 
     time_list.reverse()
