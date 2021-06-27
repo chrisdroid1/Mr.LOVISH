@@ -22,7 +22,7 @@ async def tagall(client, message):
         await client.send_message(message.chat.id, j, parse_mode="html")
 
 
-__mod_name__ = "ᴛᴀɢᴀʟʟ👁👀"
+__mod_name__ = "ᴛᴀɢᴀʟʟ👀"
 __help__ = """
 - /tagall : Tag everyone in a chat group
 """
