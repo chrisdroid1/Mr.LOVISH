@@ -1,4 +1,4 @@
-__mod_name__ = "Quotly📃"
+__mod_name__ = "ǫᴜᴏᴛᴇʟʏ📃"
 
 __help__ = """
 /quotly - make sticker of written text 
