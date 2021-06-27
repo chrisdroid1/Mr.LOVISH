@@ -57,4 +57,4 @@ __help__ = """
  ❍ /msginfo*:* Get Detailed info about any message
 """
 
-__mod_name__ = "Msg Infoℹ️"
+__mod_name__ = "Msɢ ɪɴғᴏℹ️"
