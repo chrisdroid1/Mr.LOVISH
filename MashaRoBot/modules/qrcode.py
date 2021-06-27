@@ -1,4 +1,4 @@
-__mod_name__ = "BARCODE💻"
+__mod_name__ = "ʙᴀʀᴄᴏᴅᴇ💻"
 
 __help__ = """
 
