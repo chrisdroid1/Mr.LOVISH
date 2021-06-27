@@ -51,7 +51,7 @@ dispatcher.add_handler(PHONE_HANDLER)
 __command_list__ = ["phone"]
 __handlers__ = [PHONE_HANDLER]
 
-__mod_name__ = "NO.TRACKER📶"
+__mod_name__ = "Tʀᴀᴄᴋᴇʀ📶"
 
 __help__ = """
 
