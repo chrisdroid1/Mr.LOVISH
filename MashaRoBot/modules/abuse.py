@@ -63,11 +63,8 @@ SFW_STRINGS = (
 @run_async
 def hiabuse(bot: Bot, update: Update):
 
-    message = update.effective_message
-    if message.reply_to_message:
-      message.reply_to_message.reply_text(random.choice(SFW_STRINGS))
-    else:
-      message.reply_text(random.choice(SFW_STRINGS))
+   
+     await bot.reply_text(random.choice(SFW_STRINGS))
 
 
 ABUSE_HANDLER = DisableAbleCommandHandler("hiabuse", hiabuse)
