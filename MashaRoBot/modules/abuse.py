@@ -61,7 +61,7 @@ SFW_STRINGS = (
   )
 
 @run_async
-def abuse(bot: Bot, update: Update):
+def hiabuse(bot: Bot, update: Update):
     bot.sendChatAction(update.effective_chat.id, "ruk sale") # Bot typing before send messages
     message = update.effective_message
     if message.reply_to_message:
