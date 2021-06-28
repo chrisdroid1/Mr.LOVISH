@@ -45,7 +45,7 @@ adi_chats = []
 en_chats = []
 
 @adi.on_message(
-    filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
+    filters.command("aichat") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
@@ -86,7 +86,7 @@ async def hmm(_, message):
         message.continue_propagation()
     else:
         await message.reply_text(
-            "I only recognize `/chatbot on` and /chatbot `off only`"
+            "I only recognize `/aichat on` and /aichat `off only`"
         )
 
 
@@ -359,8 +359,8 @@ async def inuka(client, message):
 __help__ = """
 Chatbot 
 AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
- - /chatbot [ON/OFF]: Enables and disables The chat bot
- - /chatbot EN : Enables English only chatbot
+ - /aichat [ON/OFF]: Enables and disables The chat bot
+ - /aichat EN : Enables English only chatbot
  
 """
 
