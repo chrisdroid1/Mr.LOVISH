@@ -1,10 +1,14 @@
 import random
-from telegram.ext import run_async, Filters
-from telegram import Message, Chat, Update, Bot, MessageEntity
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+import html
+import time
 
-SFW_STRINGS = (
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot import dispatcher
+
+from telegram import ChatPermissions, ParseMode, Update
+from telegram.ext import CallbackContext, run_async
+
+REPLY = (
     "Jaa na Bsdk, gaand mara jaake.",
     "Tu paidaishi chutiya hai ki koi course kiya hai? ",
     "randi chod ke 1/- me apni gand bech le",
@@ -58,21 +62,18 @@ SFW_STRINGS = (
     "DEKHNE KA SALE MAA KE BHOSDE SE BAHR AJA FIR BAAP SE ZUBAN ladata hai chutiye",
     "gaye ke piche pada hai sannd tere jaise mere niche latak rehe hai do aand",
     "Teri maan ko itna chodu gha na ki wo chila chila ke thak jayagi🥲"
-  )
-
+    )
+    
 @run_async
-def hiabuse(bot: Bot, update: Update):
-
-   
-     await bot.reply_text(random.choice(SFW_STRINGS))
-
-
-ABUSE_HANDLER = DisableAbleCommandHandler("hiabuse", hiabuse)
+def abuse(update: Update, context: CallbackContext):
+      update.effective_message.reply_text(random.choice(REPLY))
+      
+ABUSE_HANDLER = DisableAbleCommandHandler("abuse", abuse)
 
 dispatcher.add_handler(ABUSE_HANDLER)
 
 __help__ = """
-• /hiabuse - To abuse hard in hindi 
+• /abuse - To abuse hard in hindi 
 
 """
 
