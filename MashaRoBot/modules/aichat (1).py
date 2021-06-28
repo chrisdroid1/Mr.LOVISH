@@ -355,10 +355,10 @@ async def inuka(client, message):
 
 
 __help__ = """
-AI Chatbot 
+λI Chatbot 
 AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
- • /aichat [ON/OFF]: Enables and disables The AI chat bot
- • /aichat EN : Enables English only AI chatbot
+ • /aichat [ON/OFF]: Enables and disables The AI chat bot in your group
+ • /aichat EN : Enables CHATBOT to speak English Only.
 
  """
 
