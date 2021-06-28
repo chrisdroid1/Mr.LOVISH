@@ -62,7 +62,7 @@ SFW_STRINGS = (
 
 @run_async
 def hiabuse(bot: Bot, update: Update):
-
+    if hiabuse is True:
       message.reply_to_message.reply_text(random.choice(SFW_STRINGS))
     else:
       message.reply_text(random.choice(SFW_STRINGS))
