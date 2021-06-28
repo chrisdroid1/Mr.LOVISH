@@ -67,5 +67,5 @@ ffmpeg
 python-arq
 fontTools
 aiofiles
-
+motor
 
