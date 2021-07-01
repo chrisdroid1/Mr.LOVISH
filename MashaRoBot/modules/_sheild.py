@@ -74,7 +74,7 @@ async def is_nsfw(event):
 @tbot.on(events.NewMessage(pattern="/gshield (.*)"))
 async def nsfw_watch(event):
     if not event.is_group:
-        await event.reply("You Can Only Nsfw Watch in Groups.")
+        await event.reply("You Can Only porn protection Watch in Groups.")
         return
     input_str = event.pattern_match.group(1)
     if not await is_admin(event, BOT_ID):
@@ -88,11 +88,11 @@ async def nsfw_watch(event):
             or input_str == "enable"
         ):
             if is_nsfwatch_indb(str(event.chat_id)):
-                await event.reply("`This Chat Has Already Enabled Nsfw Watch.`")
+                await event.reply("`This Chat Has Already Enabled pornography protection on`")
                 return
             add_nsfwatch(str(event.chat_id))
             await event.reply(
-                f"**Added Chat {event.chat.title} With Id {event.chat_id} To Database. This Groups Nsfw Contents Will Be Deleted**"
+                f"**Added Chat {event.chat.title} With Id {event.chat_id} To Database. This Groups porn Contents Will Be Deleted**"
             )
         elif (
             input_str == "off"
@@ -101,15 +101,15 @@ async def nsfw_watch(event):
             or input_str == "disable"
         ):
             if not is_nsfwatch_indb(str(event.chat_id)):
-                await event.reply("This Chat Has Not Enabled Nsfw Watch.")
+                await event.reply("This Chat Has Not Enabled pornography protection.")
                 return
             rmnsfwatch(str(event.chat_id))
             await event.reply(
-                f"**Removed Chat {event.chat.title} With Id {event.chat_id} From Nsfw Watch**"
+                f"**Removed Chat {event.chat.title} With Id {event.chat_id} From Pron Protection list**"
             )
         else:
             await event.reply(
-                "I undestand `/nsfwguardian on` and `/nsfwguardian off` only"
+                "I undestand `/gsheild on` and `/gsheild off` only"
             )
     else:
         await event.reply("`You Should Be Admin To Do This!`")
@@ -135,7 +135,7 @@ async def ws(event):
         await event.delete()
         st = sender.first_name
         hh = sender.id
-        final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Yone deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By YoneAI` \n**#GROUP_GUARDIAN** "
+        final = f"**PORN DETECTED**\n\n{st}](tg://user?id={hh}) your message contain PRON content.. So, Yone deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By LOVISH` \n**#GROUP_GUARDIAN** "
         dev = await event.respond(final)
         await asyncio.sleep(10)
         await dev.delete()
@@ -143,8 +143,8 @@ async def ws(event):
 
 
 """
-@pbot.on_message(filters.command("nsfwguardian") & ~filters.edited & ~filters.bot)
-async def add_nsfw(client, message):
+@pbot.on_message(filters.command("gsheild") & ~filters.edited & ~filters.bot)
+async def gsheild_on(client, message):
     if len(await member_permissions(message.chat.id, message.from_user.id)) < 1:
         await message.reply_text("**You don't have enough permissions**")
         return
@@ -156,7 +156,7 @@ async def add_nsfw(client, message):
             return
         me = await client.get_me()
         add_chat(message.chat.id)
-        await pablo.edit("Successfully Added Chat To NSFW Watch.")
+        await pablo.edit("Successfully Added Chat To PORNOGRAPHY  Protection.")
         
     elif status == "off" or status=="OFF" or status == "disable":
         pablo = await message.reply("`Processing..`")
@@ -164,9 +164,9 @@ async def add_nsfw(client, message):
             await pablo.edit("This Chat is Not in dB.")
             return
         rm_chat(message.chat.id)
-        await pablo.edit("Successfully Removed Chat From NSFW Watch service")
+        await pablo.edit("Successfully Removed Chat From Pornography Protection service")
     else:
-        await message.reply(" I undestand only `/nsfwguardian on` or `/nsfwguardian off` only")
+        await message.reply(" I undestand only `/gsheild on` or `/gsheild off` only")
         
 @pbot.on_message(filters.incoming & filters.media & ~filters.private & ~filters.channel & ~filters.bot)
 async def nsfw_watch(client, message):
@@ -197,7 +197,7 @@ async def nsfw_watch(client, message):
             Escobar = midhun.id
         await client.send_message(
             message.chat.id,
-            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, Yone deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By YoneAI` \n**#GROUP_GUARDIAN** ",
+            f"**PORN DETECTED**\n\n{hehe}'s message contain porn content.. So, Lovish deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By LOVISH` \n**#GROUP_GUARDIAN** ",
         )
         message.continue_propagation()
 """
@@ -417,13 +417,13 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Yone can protect your group from NSFW senders, Slag word users and also can force members to use English
+✪ Lovish can protect your group from Pornography senders, Slag word users and also can force members to use English
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
  - /globalmode <i>on/off</i> - Enable|Disable English only mode
  - /profanity <i>on/off</i> - Enable|Disable slag word cleaning
  
-Note: Special credits goes to Julia project and Friday Userbot
+REPORT ERRORS AT :- @Psycho_Bots
  
 """
 __mod_name__ = "ᴘʀᴏᴛᴇᴄᴛ🛡️"
