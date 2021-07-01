@@ -417,13 +417,13 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Lovish can protect your group from Pornography senders, Slag word users and also can force members to use English
+♪ Lovish can protect your group from Pornography senders, Slag word users and also can force members to use English
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
  - /globalmode <i>on/off</i> - Enable|Disable English only mode
  - /profanity <i>on/off</i> - Enable|Disable slag word cleaning
  
-REPORT ERRORS AT :- @Psycho_Bots
- 
-"""
+
+ """
+
 __mod_name__ = "ᴘʀᴏᴛᴇᴄᴛ🛡️"
