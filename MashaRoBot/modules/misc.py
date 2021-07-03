@@ -92,8 +92,8 @@ __help__ = """
 *Urban Dictonary:*
  ❍ /ud <word>*:* Type the word or expression you want to search use
 *Wikipedia:*
- ❍ /wiki <query>*:* wikipedia your query
-*Wallpapers:*
+
+
 
  ❍ /cash*:* currency converter
 Example:
