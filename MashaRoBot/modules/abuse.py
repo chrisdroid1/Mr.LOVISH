@@ -61,7 +61,9 @@ REPLY = (
     "MAA KI CHUT MAI TALWAR DUNGA BC CHUT FAT JAEGI ",
     "DEKHNE KA SALE MAA KE BHOSDE SE BAHR AJA FIR BAAP SE ZUBAN ladata hai chutiye",
     "gaye ke piche pada hai sannd tere jaise mere niche latak rehe hai do aand",
-    "Teri maan ko itna chodu gha na ki wo chila chila ke thak jayagi🥲"
+    "Teri maan ko itna chodu gha na ki wo chila chila ke thak jayagi🥲",
+    "Tere jaise bacho se liye 3 puri raat gand mari wo be liye cheen",
+    "Pani kaam hai bottle me gand marunga teri hotel me😂"
     )
     
 @run_async
@@ -73,7 +75,7 @@ ABUSE_HANDLER = DisableAbleCommandHandler("abuse", abuse)
 dispatcher.add_handler(ABUSE_HANDLER)
 
 __help__ = """
-• /abuse - To abuse hard in hindi 
+"• /abuse - To abuse hard in hindi 
 
 """
 
