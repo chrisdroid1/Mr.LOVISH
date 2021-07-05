@@ -17,7 +17,7 @@ from youtube_dl.utils import (
 from MashaRoBot.events import register as saitama
 
 
-@saitama(pattern="^/v(audio|ideo) (.*)")
+@saitama(pattern="^/lk(audio|video) (.*)")
 async def download_video(v_url):
     """ For /ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
