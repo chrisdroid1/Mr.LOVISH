@@ -352,7 +352,7 @@ def info(update: Update, context: CallbackContext):
             )
 
     else:
-        message.reply_text(
+        message.reply_photo(photo=open(f"{user.id}.png, "rb"),
             text, parse_mode=ParseMode.HTML, disable_web_page_preview=True
         )
 
