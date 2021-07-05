@@ -17,7 +17,7 @@ from youtube_dl.utils import (
 from MashaRoBot.events import register as saitama
 
 
-@saitama(pattern="^/yt(audio|video) (.*)")
+@saitama(pattern="^/v(audio|ideo) (.*)")
 async def download_video(v_url):
     """ For /ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
@@ -45,7 +45,7 @@ async def download_video(v_url):
         }
         video = False
         song = True
-    elif type == "video":
+    elif type == "ideo":
         opts = {
             "format": "best",
             "addmetadata": True,
@@ -125,6 +125,6 @@ async def download_video(v_url):
             v_url.chat_id,
             f"{ytdl_data['id']}.mp4",
             supports_streaming=True,
-            caption=ytdl_data["title"],
+            caption=ytdl_data["title", "𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 @Lovishmanager_bot"],
         )
         os.remove(f"{ytdl_data['id']}.mp4")
