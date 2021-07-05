@@ -92,7 +92,7 @@ __help__ = """
 *Urban Dictonary:*
   /ud <word>*:* Type the word or expression you want to search use
 *Wikipedia:*
- ♪ /ytvideo*:* Download video with YT links
+ 
  
 
  ♪ /cash*:* currency converter
