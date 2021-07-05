@@ -374,9 +374,12 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
         )
     elif query.data == "hw_to":
-        query.message.edit_text("Hi {} I am Lovish\n\n •Lovish😄\n•You wanna to Know.\n\n     •First Add me into Your Group\n  •AnD Make me AdMiN with all right..and let me Do Your work🙂\n\n•IF YOU HAVE ANY OTHER Query Let us know AT Support Group",
+        query.message.edit_text(
+            text=""" Hi {} I am Lovish\n\n •Lovish😄\n•You wanna to Know.\n\n     •First Add me into Your Group\n  •AnD Make me AdMiN with all right..and let me Do Your work🙂\n\n
+            •IF YOU HAVE ANY OTHER Query Let us know AT [Support](https://t.me/Psycho_Bots) Group""",
         parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
               [
                 [
                   InlineKeyboardButton(text="🧑‍🦽Ъacк", callback_data="masha_"),
@@ -385,7 +388,12 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                 )
             )
     elif query.data == "tu_ho":
-        query.message.edit_text(text="This BOT HAVE SOME Terms& Condition\n\n  •You can't use this bot for Any wrong Purpose..\n    •You can't use this bot against someone\n     •You Can't Have Miss use Of Modules🙂..\n\nTHAT'S IT if you wanna Add Something you can ask in Support",
+        query.message.edit_text(
+            text="""This BOT HAVE SOME Terms& Condition\n\n  
+            •You can't use this bot for Any wrong Purpose..\n   
+            •You can't use this bot against someone\n    
+            •You Can't Have Miss use Of Modules🙂..\n\n
+            THAT'S IT if you wanna Add Something you can ask in Support""",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
