@@ -123,9 +123,10 @@ async def download_video(v_url):
         )
         await v_url.client.send_file(
             v_url.chat_id,
-            f"{ytdl_data['id']}.mp4",
+            f"{ytdl_data['id']}.mp4 \n𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 @Lovishmanager_bot",
             supports_streaming=True,
-            caption=ytdl_data["title", "𝚞𝚙𝚕𝚘𝚍𝚎𝚍 𝚋𝚢 @Lovishmanager_bot"],
+            caption=ytdl_data["title"],
+
 
         )
         os.remove(f"{ytdl_data['id']}.mp4")
