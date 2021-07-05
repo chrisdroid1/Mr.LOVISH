@@ -381,7 +381,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     elif query.data == "hw_to":
         query.message.edit_text(
             text=f"Hey you want help🤗...ok.I am very simple to use..\n\n  Just Add me into Your Group\n\nMAKE ME ADMIN with all right🙂\nand let me do my work..CHECK BELOW **T&C**"
-          f"if you still have questions let us know at @{SUPPORT_CHAT}"),
+                 f"if you still have questions let us know at @{SUPPORT_CHAT}"),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -394,12 +394,13 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             ),
          )
     elif query.data == "tc_menu":
-        query.message.edit_tex_text(text=f"•This Bot Lovish have Some terms and conditions"
+        query.message.edit_tex_text(
+            text=f"•This Bot Lovish have Some terms and conditions"
         
           f"♪ Don't have miss use of BoT\nDon't use Modules for Miss-use\n"
           f"♪ Don't Use Lovish feds Without any valid reason\n"
-          f" ♪ Don't USE sensevity moduels against someone.\n"
-          f" ♪ If you have any problem oR want to add something Contact to [support](https://t.me/Psycho_Bots)"),
+          f"♪ Don't USE sensevity moduels against someone.\n"
+          f"♪ If you have any problem oR want to add something Contact to [support](https://t.me/Psycho_Bots)"),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
