@@ -68,4 +68,6 @@ python-arq
 fontTools
 aiofiles
 motor
-
+ffprobe
+avprobe 
+avconv
