@@ -126,7 +126,7 @@ async def download_video(v_url):
             f"{ytdl_data['id']}.mp4",
             supports_streaming=True,
             caption=ytdl_data["title"],
-            "𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 @Lovishmanager_bot",
+
 
 
         )
