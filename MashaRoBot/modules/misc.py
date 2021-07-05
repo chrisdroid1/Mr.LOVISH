@@ -93,7 +93,7 @@ __help__ = """
   /ud <word>*:* Type the word or expression you want to search use
 *Wikipedia:*
  ♪ /ytvideo*:* Download video with YT links
- ♪ /ytaudio*:* Download Audio With YT links
+ 
 
  ♪ /cash*:* currency converter
 Example:
